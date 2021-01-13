@@ -1,5 +1,5 @@
 import pytest
-from my_sum.py import mysum
+from sum.py import mysum
 
 @pytest.mark.parametrize('numbers, output', [
     ([1, 2, 3], 6),
