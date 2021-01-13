@@ -13,3 +13,5 @@ def test_mysum(numbers, output):
     assert mysum(numbers) == output
     assert type(numbers[0]) == int
     assert (len(numbers) % 2) == 1
+    for one_number in numbers:
+        assert(isinstance(one_number, int))
